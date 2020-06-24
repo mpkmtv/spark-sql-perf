@@ -34,6 +34,9 @@ The first run of `bin/run` will build the library.
 
 ## Build
 
+Can build only on Linux 
+[root@perf109-27 spark-sql-perf]:/home/davidw/spark-sql-perf
+
 Use `sbt package` or `sbt assembly` to build the library jar.  
 Use `sbt +package` to build for scala 2.11 and 2.12.
 
